@@ -15,6 +15,7 @@ window.addEventListener("load", function () {
   ).then(function (response) {
     response.json().then(function (json) {
       const container = document.getElementById("container");
+ 
       // let index = 0;
       container.addEventListener("click", function () {
         let output = "";
@@ -23,6 +24,7 @@ window.addEventListener("load", function () {
           json.sort(GetSortOrder("hoursInSpace"));
           if (json[index][active] === "true") {
             document.querySelectorAll("active").style.color = "green";}
+            const color =index[i].active ? 'green' : 'black';
           container.innerHTML += `
                      <div class="astronaut">
                         <ul>
