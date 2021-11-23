@@ -1,16 +1,23 @@
 .avatar {
     border-radius: 50%;
-    height: 100px;
+    height: 130px;
     float:right;
 }
-
+li {
+    text-align: left;
+    margin-left: 25px;
+    font-family: Arial;
+}
+h3 {
+    margin-left: 5px;
+}
 .astronaut {
-    border: 1px solid black;
+    border: 3px solid black;
     display: flex;
     justify-content: space-between;
     width: 500px;
-    align-items: center;
     padding: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+    margin-left: 10px;
     border-radius: 6px;
 }
